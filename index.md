@@ -1,7 +1,7 @@
 ---
 ---
 
-The Law Lab is a collaboration between political science researchers at Yale University, University of California - Berkeley, and Stanford University working on empirical social science questions about actors in the American legal system and their identities.
+The Law Lab is a collaboration between political science researchers at Yale University and University of California - Berkeley working on empirical social science questions about actors in the American legal system and their identities.
 
 {% include section.html %}
 
