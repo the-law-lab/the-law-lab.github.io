@@ -57,14 +57,14 @@
 {% endif %}
 <meta name="description" content="{{ description }}">
 
-<meta property="og:title" content="{{ title }}">
+<meta property="og:title" content="{{ title | default: site.title | xml_escape }}">
 <meta property="og:site_title" content="{{ site.title | xml_escape }}">
 <meta property="og:description" content="{{ description }}">
 <meta property="og:url" content="{{ url }}">
 <meta property="og:image" content="{{ share }}">
 <meta property="og:locale" content="en_US">
 
-<meta property="twitter:title" content="{{ title }}">
+<meta property="twitter:title" content="{{ title | default: site.title | xml_escape }}">
 <meta property="twitter:description" content="{{ description }}">
 <meta property="twitter:url" content="{{ url }}">
 <meta property="twitter:card" content="summary_large_image">
